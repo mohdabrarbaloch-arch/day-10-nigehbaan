@@ -1,0 +1,10 @@
+.venv
+__pycache__
+*.pyc
+.env
+*.db
+.pytest_cache
+.ruff_cache
+.git
+docs/screenshots/*.png
+node_modules
