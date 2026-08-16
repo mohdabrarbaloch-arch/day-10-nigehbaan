@@ -114,8 +114,15 @@ and the derived MEK (which is useless without the password).
 
 ## Screenshots
 
-![Vault](docs/screenshots/vault.png)
-![Generator](docs/screenshots/generator.png)
+![Nigehbaan vault (mobile)](https://static.teamily.ai/sites/8ad038b3-6d11-4f90-b314-2e7c8342d054/documents/vault/vault.png)
+
+## Deployment status
+
+**Vercel:** not yet deployed — no `VERCEL_TOKEN` was available in the build
+environment. The repo is fully Vercel-ready (`vercel.json` + `api/index.py`,
+which switches to a `/tmp` SQLite on serverless). To deploy: import the repo
+at vercel.com → set env vars → Deploy. Once connected, the live URL will be
+added here and in the release notes.
 
 ## License
 
